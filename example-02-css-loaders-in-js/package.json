@@ -1,0 +1,20 @@
+{
+  "name": "ex-css-loaders-in-js",
+  "version": "1.0.0",
+  "description": "Webpack Example Project 02 - Css Loaders In Js",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "https://github.com/fatihtuzen",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "css-loader": "^3.4.0",
+    "style-loader": "^1.1.2"
+  }
+}
