@@ -1,0 +1,17 @@
+.flex-with-support {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6eab36;
+    color: white;
+}
+.flex-without-support {
+    /* autoprefixer: off */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ab1417;
+    color: white;
+}
